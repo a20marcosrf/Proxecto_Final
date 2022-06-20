@@ -1,0 +1,101 @@
+
+body {
+    background-image: url(../media/monograma2.jpg);
+    background-attachment: fixed;
+    width: 80%;
+    margin: auto;
+    text-align:center;
+}
+
+h1{ 
+    height:100%;
+    background-color:rgb(75, 119, 75);
+    margin-bottom:0px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    color:white;
+}
+
+a{
+    font-weight: bold;
+    text-decoration:none;
+    font-family: he
+}
+
+p{
+    font-size:2em;
+    height:100%;
+    background-color:rgb(75, 119, 75);
+    margin-top:0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    color:white;
+}
+
+input{
+    background-color: white;
+    text-align:center;
+}
+
+.container_carrito{
+    margin-top:0px;
+    padding:20px;
+    background-color: rgb(81, 23, 35);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+ .card{
+     padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height:150px;
+    text-align:center;
+    margin: auto;
+    font-family: arial;
+     font-weight:bolder;
+    background-color: rgb(221, 192, 156);
+    border: rgb(214, 161, 92) 2px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
+.card button {
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(75, 119, 75);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+table{
+    width:60%;
+    margin:auto;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    background-color:beige;
+    border-radius:10px;
+}
+
+table th{
+    background-color:brown;
+    color:white;
+    border-radius:10px;
+}
+
+#enviar_pedido{
+    background-color:rgb(75, 119, 75);
+    color:white;
+    border-radius:10px;
+    width:30%;
+    height:30px;
+    font-weight:bolder;
+}

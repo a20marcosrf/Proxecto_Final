@@ -1,0 +1,24 @@
+body{
+    background-image: url(../media/monograma2.jpg);
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+form{
+    border: 3px rgb(243, 203, 128) solid;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(81, 23, 35);
+}
+
+button, input {
+   
+    margin: 20px;
+    background-color: rgb(243, 203, 128);
+    border-radius: 5px;
+}

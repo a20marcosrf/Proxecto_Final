@@ -1,0 +1,43 @@
+160201Feb
+
+
+
+blade: CSGO-9zKzp-Mc54c-t4i64-2VeZb-HidBN
+fran: CSGO-tOJCL-Virdz-vhtoU-dD3Rd-OnMHA
+loba:CSGO-TeoPf-wvVsF-KKDaD-pWduc-6DR7B
+ruso 17yo: CSGO-Y5aHa-YTSKp-hKf8N-WKNwF-2e7iL
+
+bind "ALT" "incrementvar cl_radar_scale 0.315 1 0.685"
+
+volume "0.2"
+voice_enable "1"
+voice_scale "1"
+windows_speaker_config "1"
+snd_musicvolume "0.04"
+snd_tensecondwarning_volume "1"
+snd_menumusic_volume "0"
+snd_roundend_volume "0"
+snd_roundstart_volume "0"
+snd_deathcamera_volume "0"
+snd_mapobjective_volume "0"
+
+cl_radar_always_centered "0"
+
+
+
+Crosshair:
+cl_crosshairsize 1
+cl_crosshairstyle 4
+cl_crosshairgap -3
+cl_crosshairdot 1
+cl_crosshairthickness 0
+cl_crosshaircolor 1
+
+Toggle left/right arm:
+bind "Capslock" "toggle cl_righthand 1 0"
+
+Clear blood/bullets on walls: 
+bind H "r_cleardecals"
+
+
+

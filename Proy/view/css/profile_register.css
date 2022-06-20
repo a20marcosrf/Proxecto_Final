@@ -1,0 +1,191 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../media/monograma2.jpg);
+  width:80%;
+  margin: auto;
+}
+
+/* Add padding to containers */
+.container {
+  text-align: center;
+  color: white;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: rgb(81, 23, 35);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: rgb(243, 203, 128);
+  color: black;
+  font-weight: bolder;
+  padding: 16px 20px;
+  border-radius: 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: rgb(65, 18, 28);
+  text-align: center;
+}
+
+/*Carta usuarios a eliminar*/
+
+#usuarios_eliminar{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: arial;
+  background-color: rgb(221, 192, 156);
+  border: rgb(214, 161, 92) 2px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.card button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(75, 119, 75);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card a{
+text-decoration: none;
+}
+
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th{
+    text-align: center;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+
+  table tr:nth-child(odd){background-color: white;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #tabla_modificaciones{
+    margin-top:20px;
+    text-align:center;
+  
+  }
+  #tabla_modificaciones_inner{
+    height:120px;
+    background-color: bisque;
+    width: 60%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom:20px;
+  }
+
+  #tabla_modificaciones h1{
+    text-align:center;
+    color:white;
+    width: 60%;
+    margin: auto;
+    background-color: #04AA6D;
+    margin-bottom: 0px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+  
+  }
+
+  #tabla_modificaciones_inner p {
+  padding:5px;
+  margin-top:0px;
+  margin-bottom: 16px;
+    font-weight:bolder;
+  
+}
+
+#pages{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: yellow;
+}
+
+  /*
+
+
+
+
+
+  */
